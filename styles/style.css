@@ -1,0 +1,45 @@
+.header{
+	
+	width: 200px;
+	height: 50px;
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+	border: solid black 5px;
+}
+
+.container{
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+.currentTemp{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.hourlyTemp{
+	/*display: block;*/
+}
+.hourlyTime{
+	display: inline-block;
+}
+.hourlyDataSummary{
+	display: inline-block;
+	margin-left: 10%;
+}
+.hourlyApparantTemp{
+	display: inline-block;
+	margin-left: 10%;
+}
+.dailyTime{
+	display: inline-block;
+}
+.dailyDataSummary{
+	display: inline-block;
+	margin-left: 10%;
+}
+.dailyApparantTemp{
+	display: inline-block;
+	margin-left: 10%;
+}
